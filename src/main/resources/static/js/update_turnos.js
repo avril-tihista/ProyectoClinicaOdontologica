@@ -41,7 +41,7 @@ window.addEventListener('load', function () {
               document.querySelector('#turno_id').value = turno.id || '';
                           document.querySelector('#odontologo').value = turno.odontologo.id || '',
                           document.querySelector('#paciente').value = turno.paciente.id || '',
-                          document.querySelector('#fecha').value = turno.fechaHora || '';
+                          document.querySelector('#fecha').value = turno.fecha || '';
                           // Mostrar el formulario de actualización
                           document.querySelector('#div_turno_updating').style.display = "block";
           }).catch(error => {
