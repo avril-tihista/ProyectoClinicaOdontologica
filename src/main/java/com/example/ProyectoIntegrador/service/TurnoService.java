@@ -55,6 +55,8 @@ public class TurnoService {
         turnoDTO.setFecha(turno.getFechaHora());
         turnoDTO.setPacienteId(turno.getPaciente().getId());
         turnoDTO.setOdontologoId(turno.getOdontologo().getId());
+        turnoDTO.setPaciente(turno.getPaciente());
+        turnoDTO.setOdontologo(turno.getOdontologo());
         return turnoDTO;
     }
     public Turno turnodtoAturno(TurnoDTO turnoDTO){

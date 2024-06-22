@@ -39,7 +39,7 @@ window.addEventListener('load', function () {
                      'Fecha de Ingreso: ' + turno.paciente.fechaIngreso + '<br>' +
                      'Domicilio: ' + domicilio + '<br>' +
                      'Email: ' + turno.paciente.email + '</td>' +
-                     '<td>' + turno.fechaHora+ '</td>' +
+                     '<td>' + turno.fecha+ '</td>' +
                      '<td>' + deleteButton + '</td>';
 
         };
